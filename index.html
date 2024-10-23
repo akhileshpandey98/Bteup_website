@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flag {
+      max-height: 1160px;
+      background-image: url('flag2.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .header {
+      height: 300px;
+      width: 1450px;
+      background: white;
+      margin: auto;
+
+    }
+
+    .logo {
+      height: 200px;
+      width: 200px;
+
+      background-image: url('bteup logo.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      float: left;
+      margin: 25px;
+    }
+
+    .txt {
+      height: 200px;
+      width: 800px;
+      background-color: white;
+      float: left;
+      margin: 25px;
+      text-align: start;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 35px;
+      color: #666666;
+
+    }
+
+    .india {
+      height: 200px;
+      width: 260px;
+      border-radius: 5px;
+      background-image: url('india logo.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      float: left;
+      margin: 25px;
+    }
+
+    /* start nav  maenu */
+    .menu {
+      height: 23px;
+      width: 1450px;
+      background-color: white;
+      margin: auto;
+      float: left;
+      margin-top: -21PX;
+      border-radius: 5px;
+
+    }
+
+    .nav1 {
+      height: 20px;
+      width: 70px;
+      background-color: #294a70;
+      color: white;
+      border-radius: 5px;
+      font-size: 15px;
+      text-align: center;
+      float: left;
+      margin: 2PX;
+      border-radius: 5px;
+
+    }
+
+    .nav2 {
+      height: 20px;
+      width: 100px;
+      background-color: #294a70;
+      color: white;
+      border-radius: 5px;
+      font-size: 15px;
+      text-align: center;
+      float: left;
+      margin: 2PX;
+
+    }
+
+    .nav3 {
+      height: 20px;
+      width: 90px;
+      background-color: #294a70;
+      color: white;
+      border-radius: 5px;
+      font-size: 15px;
+      text-align: center;
+      float: left;
+      margin: 2PX;
+
+    }
+
+
+    .nav4 {
+      height: 20px;
+      width: 162px;
+      background-color: #294a70;
+      color: white;
+      border-radius: 5px;
+      font-size: 15px;
+      text-align: center;
+      float: left;
+      margin: 2PX;
+
+    }
+
+    .nav5 {
+      height: 20px;
+      width: 220px;
+      background-color: #294a70;
+      color: white;
+
+      font-size: 15px;
+      text-align: center;
+      float: left;
+      margin: 2PX;
+      border-radius: 5px;
+
+    }
+
+    .nav6 {
+      height: 20px;
+      width: 300px;
+      background-color: #294a70;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      text-align: center;
+      float: left;
+      margin: 2PX;
+      border-radius: 5px;
+
+    }
+
+    .nav7 {
+      height: 20px;
+      width: 260px;
+      background-color: #294a70;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      text-align: center;
+      float: left;
+      margin: 2PX;
+      border-radius: 5px;
+
+    }
+    
+    a:hover{
+      transition: 1s;
+      border-radius: 5px;
+    color: aqua;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    /* start news */
+    .latout {
+      height: 35px;
+      width: 1450px;
+      margin: auto;
+      border-radius: 5px;
+
+    }
+
+    .latest {
+      height: 30px;
+      width: 120px;
+      background-image: url('latest logo.png');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      float: left;
+      border-radius: 5px;
+
+
+    }
+
+    .marquee {
+      height: 26px;
+      width: 1329px;
+      float: left;
+      background-color: rgb(140, 147, 153);
+      padding-top: 5px;
+      margin-left: 120px;
+      margin-top: -30px;
+      color: blue;
+      border-radius: 5px;
+    }
+
+
+    /* start keyframe */
+    .outer {
+      height: 1653px;
+      width: 1450px;
+      margin: auto;
+      background-color: white;
+      border-radius: 5px;
+
+    }
+
+    .keyframe {
+      float: left;
+      height: 400px;
+      width: 725px;
+      background-size: cover;
+      animation-name: abc;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      background-color: white;
+      border-radius: 5px;
+      /* box-shadow: -1px -4px 4px 8px black; */
+    }
+
+    @keyframes abc {
+      0% {
+        background-image: url('btup1.jpg');
+      }
+
+      25% {
+        background-image: url('bteup2.jpg');
+      }
+
+      50% {
+        background-image: url('bteup3.jpg');
+      }
+
+      75% {
+        background-image: url('bteup4.jpg');
+      }
+
+      100% {
+        background-image: url('bteup3.jpg');
+      }
+    }
+
+    .map {
+      height: 400px;
+      width: 725px;
+      float: left;
+      background-size: 100% 100%;
+      background-image: url('mapbteup.png');
+      background-color: white;
+      border-radius: 5px;
+    }
+
+    /* start image */
+    .img {
+      height: 200px;
+      width: 200px;
+      background-color: antiquewhite;
+      border-radius: 5px;
+    }
+
+    /* latest news link  */
+
+    .outerdiv1 {
+      height: 810px;
+      width: 380px;
+      float: left;
+      background-color: white;
+      margin: 10PX 10PX auto;
+      border: 1px solid rgb(221, 217, 217);
+      border-radius: 5px;
+    }
+
+    .box1 {
+      height: 30px;
+      width: 378px;
+      background-color: orange;
+      /* font-weight: bold; */
+      text-align: start;
+      float: left;
+      color: white;
+      padding-left: 5PX;
+      border-radius: 5px;
+    }
+
+    .box2 {
+      height: 420px;
+      width: 378px;
+      float: left;
+      text-align: justify;
+      border-radius: 5px;
+    }
+
+    /* important link */
+    .box01 {
+      height: 30px;
+      width: 378px;
+      background-color: #294a70;
+      /* font-weight: bold; */
+      text-align: start;
+      float: left;
+      color: white;
+      padding-left: 5PX;
+      border-radius: 5px;
+    }
+
+    .box02 {
+      height: 300px;
+      width: 378px;
+      float: left;
+      border-radius: 5px;
+
+
+    }
+
+    /* end latest link */
+
+    /* start enroll */
+    .outerdiv2 {
+      height: 800px;
+      width: 1010px;
+      border-radius: 5px;
+      float: left;
+      border: 1PX SOLID rgb(197, 194, 194);
+      margin: 10PX 10PX auto;
+
+      /* font-weight: bold; */
+      /* transform: translatex(420px); */
+
+    }
+
+    .box3 {
+      height: 30px;
+      width: 1005Px;
+      background-color: orange;
+      font-weight: bold;
+      text-align: start;
+      float: left;
+      color: white;
+      padding-left: 5PX;
+      border-radius: 5px;
+    }
+
+    .box4 {
+      height: 700px;
+      width: 1010px;
+      border-radius: 5px;
+      float: left;
+      background-size: cover;
+      background-image: url('real chart.png');
+    }
+
+    /* end enroll */
+
+    marquee {
+      height: 400px;
+    }
+
+
+
+    ul li a {
+      color: #5691c3;
+      
+      margin: 10px;
+      font-weight: bold;
+      border-radius: 5px;
+
+    }
+
+
+    .endouter {
+      height: 400px;
+      width: 1410px;
+      float: left;
+      margin: 10px 10px auto;
+      background: white;
+      border-radius: 5px;
+
+    }
+
+    /* Start Photography  */
+    .outphoto {
+      height: 300px;
+      width: 450px;
+      float: left;
+      border-radius: 5px;
+
+
+    }
+
+    .gallery {
+      height: 30px;
+      width: 380px;
+      float: left;
+      background: #294a70;
+      padding-left: 5px;
+      color: white;
+      border-radius: 5px;
+
+    }
+
+
+    .keyframe2 {
+      height: 300px;
+      width: 385px;
+      float: left;
+      background-size: cover;
+      animation-name: xyz;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      background-color: white;
+      border-radius: 5px;
+    }
+
+    @keyframes xyz {
+      0% {
+        background-image: url('btup1.jpg');
+      }
+
+      25% {
+        background-image: url('bteup2.jpg');
+      }
+
+      50% {
+        background-image: url('bteup3.jpg');
+      }
+
+      75% {
+        background-image: url('bteup4.jpg');
+      }
+
+      100% {
+        background-image: url('bteup3.jpg');
+      }
+    }
+
+    /* Start Photography */
+
+    /* About BTEUP */
+
+    .outbteup {
+      height: 350px;
+      width: 953px;
+      border: 1PX SOLID #b8b4b4 !important;
+      float: left;
+      border-radius: 5px;
+
+      /* margin: 10PX 10PX auto;
+      border: 1px solid rgb(221, 217, 217); */
+    }
+
+    .bteup {
+      height: 30px;
+      width: 953px;
+      background-color: orange;
+      float: left;
+      color: white;
+      border-radius: 5px;
+    }
+
+    .about {
+      height: 300px;
+      width: 953px;
+      text-align: justify;
+      border-radius: 5px;
+      background-color: white;
+      float: left;
+    }
+
+
+    /* start footer */
+    .footer {
+      height: 50px;
+      width: 1450px;
+      margin: auto;
+      background-color: white;
+      text-align: center;
+      border-radius: 5px;
+
+
+    }
+
+    .footer2 {
+      height: 100px;
+      width: 1450px;
+      background-color: white;
+      margin: auto;
+      padding-top: 10px;
+      text-align: center;
+      border-radius: 5px;
+
+    }
+    .ul li{
+      float: left;
+      margin-top: 10px;
+     
+    }
+
+    ul li a:hover {
+
+      transition: 1s;
+      color: blue;
+      border-bottom: 1px solid blue;
+    }
+  </style>
+  <!-- style end -->
+</head>
+
+<body class="flag">
+
+  <!-- start header -->
+  <div class="header">
+    Hindi | English
+    <hr>
+
+    <div class="logo"></div>
+
+    <div class="txt">BOARD OF TECHNICAL EDUCATION<br>
+      UTTAR PRADESH LUCKNOW</div>
+
+    <div class="india"></div>
+
+    <!-- start nav -->
+    <div class="menu">
+      <div class="nav1"><a href="#">HOME </a></div>
+      <div class="nav2"><a href="#">ABOUT US</a></div>
+      <div class="nav3"><a href="#"> INSTITUTE</a></div>
+      <div class="nav3"><a href="#">SYLLABUS </a></div>
+      <div class="nav3"><a href="#">COURCES </a></div>
+      <div class="nav3"><a href="#">LOGIN </a></div>
+      <div class="nav4"><a href="#">E-SERVICES(JANHIT)</a></div>
+      <div class="nav5"><a href="#">POLYTECHNIC SEAT DETAIL </a></div>
+      <div class="nav1"><a href="#">RESULT </a></div>
+      <div class="nav4"><a href="#">STUDENT ONE VIEW </a></div>
+      <div class="nav7"><a href="#">NOC & AFFILATION APPLICATION </a></div>
+      <!-- end nav -->
+    </div>
+
+    <!-- end header -->
+  </div>
+
+  <!-- start latest news -->
+
+  <div class="latout">
+    <div class="latest"></div>
+    <div class="marquee ">
+      <marquee behavior="right" scrollamount="5">
+        <a href="/PDFFILES/NEWS_638587251272939710.pdf" title="Important Link">पाठ्यक्रम समकक्षता संबंधी सूचना | </a>
+        <a href="/PDFFILES/NEWS_638582170048535750.pdf" title="Important Link">परिषद कार्यालय से पूर्व से सम्बद्ध
+          डिप्लोमा इन इंजीनियरिंग संस्थाओं हेतु सम्बद्धता विस्तार शुल्क के संबंध में | </a>
+        <a href="/PDFFILES/NEWS_638581001911672975.pdf" title="Important Link">जून 2024 परीक्षा के सेसशनल ,गेम्स
+          ,अनुशासन अंको को ऑनलाइन माध्यम से भरे जाने की अंतिम तिथि दिनांक 02 /08 /2024 निर्धारित किये जाने के सम्बन्ध
+          में आवश्यक सूचना | </a>
+        <a href="/PDFFILES/NEWS_638571096031647538.pdf" title="Important Link">सत्र 2024-25 हेतु परिषद से सम्बद्धता
+          विस्तार प्रदान किये जाने के संबंध में | </a>
+        <a href="/PDFFILES/NEWS_638569891473247928.pdf" title="Important Link">परिषद् की जून 2024 परीक्षा हेतु सेशनल
+          /गेम्स /अनुशासन के अंक ऑनलाइन भरे जाने के सम्बन्ध में सूचना | | </a>
+        <a href="/PDFFILES/NEWS_638569773425386447.pdf" title="Important Link">वित्तीय वर्ष/शैक्षिक सत्र 2024-25 में
+          नवीन
+          शिक्षण संस्थानों के दशमोत्तर छात्रवृत्ति (शैक्षणिक भत्ता/शुल्क प्रतिपूर्ति) मास्टर डाटा बेस सम्मिलित कराने
+          संबंधी । | </a>
+        <a href="/PDFFILES/NEWS_638554269569267773.pdf" title="Important Link">सम सेमेस्टर /वार्षिक परीक्षा एवं विशेष
+          बैक
+          पेपर परीक्षा जून २०२४ के परीक्षा कार्यक्रम के सम्बन्ध में अत्यंत महत्वपूर्ण सूचना | | </a>
+        <a href="/PDFFILES/NEWS_638550078468729764.pdf" title="Important Link">Examination Scheme for Back Paper &amp;
+          Special Back Paper (June 2024) Examination (Last Updated 25/06/2024) | </a>
+      </marquee>
+    </div>
+  </div>
+  <!-- end latest news -->
+
+  <!-- start outer -->
+  <div class="outer">
+    <!-- start slider keyframe -->
+    <div class="keyframe"></div>
+    <div class="map">
+      <!-- <h1><input type="checkbox" > Your Institute Geographically</h1> -->
+    </div>
+
+    <!-- end keyframe -->
+
+    <!-- START IMAGE -->
+    <DIV class="img"></DIV>
+    <!-- START IMAGE -->
+
+    <!-- start latest news link -->
+    <div class="outerdiv1">
+      <div class="box1"> ❑ Latest News <a href="#">VIEW ALL NEWS</a></div>
+      <div class="box2">
+        <marquee direction="up" scrollamount="">
+          <ul>
+            <li><a href="#">Information for ON-LINE Examination</a> </li>
+            <li><a href="#">पाठ्यक्रम समकक्षता संबंधी सूचनाNew</a> </li>
+            <li><a href="#">परिषद कार्यालय से पूर्व से सम्बद्ध डिप्लोमा इन इंजीनियरिंग संस्थाओं हेतु सम्बद्धता विस्ता शुल्क के संबंध में।</a> </li>
+            <li><a href="#">परिषद कार्यालय से पूर्व से सम्बद्ध डिप्लोमा इन इंजीनियरिंग संस्थाओं हेतु सम्बद्धता विस्ता  शुल्क के संबंध में</a> </li>
+            <li><a href="#">सत्र 2024-25 हेतु परिषद से सम्बद्धता विस्तार प्रदान किये जाने के संबंध में</a> </li>
+            <li><a href="#">छात्रवृत्ति / शुल्क प्रतिपूर्ति सत्र 2024-25 हेतु समय सारणी l</a> </li>
+            <li><a href="#">Examination Scheme for Back Paper & Special Back Paper (June 2024) Examination (Last Updated 25/06/2024)</a> </li>
+            <li><a href="#">सम सेमेस्टर /वार्षिक परीक्षा एवं विशेष बैक पेपर परीक्षा जून २०२४ के परीक्षा कार्यक्रम के  सम्बन्ध में अत्यंत महत्वपूर्ण सूचना |</a> </li>
+            <li><a href="#">संस्थान सर्वेक्षण रिपोर्ट के लिए महत्वपूर्ण जानकारी</a> </li>
+            <li><a href="#">आधार प्रमाणीकरण एवं फैमिली आई डी निमार्ण के सम्बन्ध में आवश्यक सूचना |</a> </li>
+            <li><a href="#">मा0 उच्च न्यायालय द्वारा दिये गये आदेशों के क्रम में विशेष काउन्सिलिंग में प्रवेशित छात्र/छात्राओं के नामांकन के संबंध में आवश्यक सूचना</a> </li>
+            <li><a href="#">सत्र 2024-25 हेतु परिषद से सम्बद्धता विस्तार प्रदान किये जाने के संबंध में</a> </li>
+          </ul>
+        </marquee>
+
+        <hr>
+      </div>
+
+      <!-- start link box -->
+      <div class="box01"><a href="#">❑ Important Links</a></div>
+      <div class="box02">
+        <ul>
+          <li><a href="/WebApp/downloadDiplomaMarkSheet.aspx" title="Important Link">STUDENT MARKSHEET &amp; CERTIFICATE
+              VERIFICATION</a> </li>
+          
+          <li title="Link" class="menu-item menu-item-type-post_type menu-item-object-page NewsLinkMargin menu-item-841"
+            id="menu-item-841"><i class="fa-li fa-spinner fa-spin"></i><a href="https://irdtup.in"
+              title="Important Link">Institute of Research, Development &amp; Training, Uttar Pradesh, Kanpur</a></li>
+          
+          <li><i class="fa-li fa-spinner fa-spin"></i></li>
+          <li><a href="https://irdtup.in" title="Important Link">Institute of Research, Development &amp; Training,
+              Uttar Pradesh, Kanpur</a> </li>
+          
+          <li title="Link" class="menu-item menu-item-type-post_type menu-item-object-page NewsLinkMargin menu-item-842"
+            id="menu-item-842"><i class="fa-li fa-spinner fa-spin"></i><a href="http://www.jeecup.org/"
+              title="Important Link">Joint Entrance Examination Cell, Uttar Pradesh, Lucknow</a></li>
+          
+              <li title="Link" class="menu-item menu-item-type-post_type menu-item-object-page NewsLinkMargin menu-item-844"
+            id="menu-item-844"><i class="fa-li fa-spinner fa-spin"></i><a href="http://upted.gov.in/"
+              title="Important Link">Directorate Of Technical Education Uttar Pradesh</a></li>
+          
+        </ul>
+
+      </div>
+      <!-- start link box -->
+
+      <!-- End latest news link -->
+    </div>
+
+    <!-- start Enroll -->
+    <div class="outerdiv2">
+      <div class="box3">❑ Enrollment Analytics For 2021</div>
+      <div class="box4"></div>
+
+    </div>
+
+    <!-- End start Enroll -->
+
+    <!-- start endouter -->
+    <div class="endouter">
+
+      <!-- Start Photography -->
+      <div class="outphoto">
+        <div class="gallery"> ❑ PHOTO GALLERY</div>
+        <div class="keyframe2"></div>
+      </div>
+
+      <!-- start About BTEUP -->
+      <div class="outbteup">
+        <div class="bteup"> ABOUT BOARD OF TECHNICAL EDUCATION UTTAR PRADESH</div>
+        <div class="about">
+          <p>State Board Of Technical Education and Training was set up in the state in May,1958. The Board conducted
+            its first examination in 1960,for courses of diploma level and also for Draughtsman Certificate Course. The
+            name of the state Board was changed to Board Of Technical Education in 1962. In the same Year, the U.P.
+            Pravidhic Shiksha Adhiniyam - 1962 was enacted awarding the Board statutory status. In the year 1962, year
+            of its inception, the Board held the examination of about 2500 students, in three major disciplines of
+            Civil, Electrical and Mechanical Engineering at 25 different Centers/Institutions. It has a chairman ,
+            vice-chairman and 40 members ,named by the state government .Secretary ,Board of Technical Education ,U.P.
+            is ex-officio member secretary of the Board.The curriculum prepared by other institutions was adopted by the
+            Board, till 1980 but thereafter the curriculum and syllabi were developed and revised, every five years at
+            the Board level through its Curriculum development cell. The curriculum development work has been entrusted
+            to I.R.D.T. kanpur . The Board now examine and approve the syllabus developed by IRDT, Kanpur and prescribe
+            it for institutions affiliated to Board of Technical Education, U.P. About 1,05,000 students in the 60
+            different disciplines of one year, two year, three year and four year durations are being examined at
+            present, in the institutions, affiliated to the Board. The Board of has been constituted under U.P.
+            Pravidhic Shiksha Adhiniyam - 1962. It has a Chairman and a Vice-Chairman and, 40 memebers nominated by the
+            state Government. Secretary ,Board Of Technical Education is ex-officio member secretary of the Board.
+
+          </p>
+          
+        </div>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      
+      <hr>
+      <!-- close endouter -->
+    </div>
+
+    <!-- End OUTER -->
+  </div>
+
+  <!-- start footer -->
+  <div class="footer ul li">
+    <ul type="none">
+      <li><a href="#">Disclaimer | </a></li>
+      <li><a href="#">Privacy Policy | </a></li>
+      <li><a href="#">Accessibility Statement |</a></li>
+      <li><a href="#"> Copyright Statement | </a></li>
+      <li><a href="#"> Terms & Conditions | </a></li>
+      <li><a href="#"> Sitemap | </a></li>
+      <li><a href="#"> Contact Us | </a></li>
+      <li><a href="#"> Tenders | </a></li>
+      <li><a href="#"> FAQ | </a></li>
+    </ul>
+  </div>
+  <div class="footer2">
+    <p>© This is the official website of Board of Technical Education Uttar Pradesh , Lucknow . All Rights Reserved.</p>
+    <p>Best viewed at 1024 X 768 resolution. Browser support Mozilla Firefox 2.0 & above , I.E 6 & above.(W1).</p>
+
+  </div>
+</body>
+
+</html>
